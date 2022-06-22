@@ -237,7 +237,7 @@ function show_card(id) {
             '<h3> popis :</h3> ' +
             '<p>' + json[i].popis + '</p>' +
             '<button id="buy" onclick="pridaj_do_kosiku(' + json[i].id + ')">pridaj do kosika</button>' +
-            '<a href="/shop_card.html" id="continue"onclick="zobrazit_kosik()">zobraziť kosik...</a>' +
+            '<a href="https://martinhurak.github.io/new_forniture//shop_card.html" id="continue"onclick="zobrazit_kosik()">zobraziť kosik...</a>' +
             '</article>' +
             '</div>'
         console.log(json[i].popis)
