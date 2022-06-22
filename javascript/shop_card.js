@@ -61,7 +61,7 @@ function pridaj_do_kosiku(id) {
     } else {
 
     } // kosik.push(x) zobrazovalo všetky hodnoty "<div class='product_card'>"
-    fetch('.https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
             for (const id in kosik) { //konecna cena //
                 let celkova_cena = parseInt(json[id].cena)
                 konecna_cena = konecna_cena + (celkova_cena * kosik[id])
