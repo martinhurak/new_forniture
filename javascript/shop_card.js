@@ -61,7 +61,7 @@ function pridaj_do_kosiku(id) {
     } else {
 
     } // kosik.push(x) zobrazovalo všetky hodnoty "<div class='product_card'>"
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('.https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
             for (const id in kosik) { //konecna cena //
                 let celkova_cena = parseInt(json[id].cena)
                 konecna_cena = konecna_cena + (celkova_cena * kosik[id])
@@ -110,7 +110,7 @@ function pridaj_do_kosiku_butt(id) {
         pocet_v_kosiku = pocet_v_kosiku + value[1]
         //zobrazenie v malom kosiku 
     if (pocet_v_kosiku > 5) { document.getElementById("litle_shop_card").innerHTML = "&nbsp;" + 5 + "+" } else if (pocet_v_kosiku == 0) { document.getElementById("litle_shop_card").innerHTML = "" } else { document.getElementById("litle_shop_card").innerHTML = "&nbsp;" + pocet_v_kosiku }
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         var new_cena = kosik[id] * json[id].cena
 
         konecna_cena += json[id].cena
@@ -131,14 +131,16 @@ function odober_z_kosiku_butt(id) {
     if (kosik[id] > 0) {
         kosik[id]--
     }
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         var new_cena = kosik[id] * json[id].cena
-        console.log(kosik[id])
+
         if (kosik[id] > 0) { // opraviť 
             konecna_cena -= json[id].cena
         } else if (kosik[id] == 0) {
             konecna_cena -= json[id].cena
             document.getElementById("uplna_cena").innerHTML = "celkova cena produktov je " + konecna_cena + " &#8364"
+
+            console.log(kosik[id])
         }
 
 
@@ -146,9 +148,8 @@ function odober_z_kosiku_butt(id) {
 
         localStorage.setItem("kosik", JSON.stringify(kosik))
         let pocet_v_kosiku = 0
-        for (const value of Object.entries(kosik))
-            pocet_v_kosiku = pocet_v_kosiku + value[1]
-            // zobrazenie v malo kosiku 
+        for (const value of Object.entries(kosik)) { pocet_v_kosiku = pocet_v_kosiku + value[1] }
+        // zobrazenie v malo kosiku 
         if (pocet_v_kosiku > 5) { document.getElementById("litle_shop_card").innerHTML = "&nbsp;" + 5 + "+" } else if (pocet_v_kosiku == 0) { document.getElementById("litle_shop_card").innerHTML = "" } else { document.getElementById("litle_shop_card").innerHTML = "&nbsp;" + pocet_v_kosiku }
         document.getElementById("cel_cena" + [id]).innerHTML = "celkova cena: " + new_cena + " &#8364"
 

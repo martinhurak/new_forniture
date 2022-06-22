@@ -149,7 +149,7 @@ fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response
     })
     //zobrazenie kategorie // 
 function show_news() {
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         produkty_div.innerHTML = ""
         category.innerHTML = "novinky"
         for (let i = 0; i < 12; i++) {
@@ -166,7 +166,7 @@ function show_news() {
 }
 
 function show_gouch() {
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         produkty_div.innerHTML = ""
         category.innerHTML = "gauce"
         for (let i = 0; i < json.length; i++) {
@@ -183,7 +183,7 @@ function show_gouch() {
 }
 
 function show_chair() {
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         produkty_div.innerHTML = ""
         category.innerHTML = "stolicky"
         for (let i = 0; i < json.length; i++) {
@@ -200,7 +200,7 @@ function show_chair() {
 }
 
 function show_table() {
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         produkty_div.innerHTML = ""
         category.innerHTML = "stoly"
         for (let i = 0; i < json.length; i++) {
@@ -225,7 +225,7 @@ function show_card(id) {
     document.getElementById("product_detail_container").style.display = "block"
 
     let product_detail_container = document.getElementById("product_detail_container")
-    fetch('/storage.json').then(response => response.json()).then(json => {
+    fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         let i = id
 
         product_detail_container.innerHTML += " <div id='product_detail_card'(  style=" +
