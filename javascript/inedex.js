@@ -138,7 +138,7 @@ let category = document.getElementById("category_name")
 
 //galeria_produktov_hl_stranka 
 
-fetch('/storage.json').then(response => response.json()).then(json => {
+fetch('https://martinhurak.github.io/new_forniture//storage.json').then(response => response.json()).then(json => {
         for (let i = 0; i < 12; i++) {
             produkty_div.innerHTML += " <div class='product_card'  (  style=" +
                 'background-image:url(' + json[i].img_src + ')' + ">" +
