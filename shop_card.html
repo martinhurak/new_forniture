@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/main_copy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body class="shop-card-body">
+    <div class="nav-bar">
+        <h1 class="title">Black forniture</h1>
+        <h1 class="small_title">B.F.</h1>
+
+        <nav class="nav">
+            <ul class="nav-box">
+                <li><a href="./index.html">  domov </a></li>
+                <li><a href="./hunt.html">  novinky </a></li>
+                <li><a href="#footer"> kontakt</a></li>
+                <li><a href="#">hladať v ponuke  &nbsp;<i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="/shop_card.html" id="clicked"> kosik &nbsp;<i class="fa-solid fa-cart-shopping"><span id="litle_shop_card"></span></i></a></li>
+            </ul>
+
+        </nav>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars" id="open-menu"></i>
+            <i class="fa-solid fa-x" id="close-menu"></i>
+        </div>
+        <div class="burger-menu-items">
+            <ul>
+                <li><a href="./index.html">  domov </a></li>
+                <li><a href="./hunt.html">  novinky </a></li>
+                <li><a href="#footer"> kontakt</a></li>
+                <li><a href="#">hladať v ponuke  &nbsp;<i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="./pages/add-review.html.html"> kosik &nbsp;<i class="fa-solid fa-cart-shopping"><span id="litle_shop_card"></span></i></a></li>
+            </ul>
+        </div>
+
+
+    </div>
+    <h1>kosik</h1>
+    <div id="kosik">
+
+    </div>
+    <div id="zobraz_kosik">
+
+    </div>
+
+    <div class="zhrnutie_container">
+        <span id="uplna_cena">000</span>
+        <button id="zaplat" onclick="pokracuj_k_pladbe()">pokračuj k platbe</button>
+    </div>
+
+    <footer class="shop-card-footer" id="footer">
+        <span class="fot-contact">
+        <a href="mailto:mato.hurak@gmail.com"> mail: mato.hurak@gmail.com</a>
+        <a href="tel:+4210000000">tel :+421 *** *** </a>
+    </span>
+        <span>Author: Martin Hurák</span>
+        <div class="fot-icons">
+            <a href="#"> <i class="fab fa-facebook"></i></a>
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-github"></i></a>
+        </div>
+
+    </footer>
+</body>
+
+<script src="./javascript/shop_card.js"></script>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/main_copy.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <div class="nav-bar">
+        <h1 class="title">Black forniture</h1>
+        <h1 class="small_title">B.F.</h1>
+
+        <nav class="nav">
+            <ul class="nav-box">
+                <li><a href="./index.html" id="clicked">  domov </a></li>
+                <li><a href="./hunt.html">  novinky </a></li>
+                <li><a href="#footer"> kontakt</a></li>
+                <li><a href="#">hladať v ponuke  &nbsp;<i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="/shop_card.html"> kosik &nbsp;<i class="fa-solid fa-cart-shopping"><span id="litle_shop_card"></span></i></a></li>
+            </ul>
+
+        </nav>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars" id="open-menu"></i>
+            <i class="fa-solid fa-x" id="close-menu"></i>
+        </div>
+        <div class="burger-menu-items">
+            <ul>
+                <li><a href="./index.html" id="clicked">  domov </a></li>
+                <li><a href="./hunt.html">  novinky </a></li>
+                <li><a href="#footer"> kontakt</a></li>
+                <li><a href="#">hladať v ponuke  &nbsp;<i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="./pages/add-review.html.html"> kosik &nbsp;<i class="fa-solid fa-cart-shopping"><span id="litle_shop_card"></span></i></a></li>
+            </ul>
+        </div>
+
+
+    </div>
+    <header>
+
+        <div class="logo" id="logo">
+
+            <span id="BF">  BF</span>
+            <span id="logo_name">Black forniture</span>
+
+        </div>
+
+        <q>Vaše nove dizajnove  byvanie </q>
+        <div class="text-qery">
+            <h1>
+                <span>BLACK :</span>
+                <div class="message">
+                    <div class="word1"><a href="#">sofa</a> </div>
+                    <div class="word2"><a href="#"> kitchen</a></div>
+                    <div class="word3"><a href="#"> shower</a></div>
+                </div>
+            </h1>
+        </div>
+    </header>
+    <div class="nav_arrow">
+        <a href="#logo"><i class="fa-solid fa-circle-chevron-up"></i></a>
+    </div>
+
+
+    <div class="sales_slide_container">
+        <div class="sales_item">
+            <img src="img/sales/black-friday-4490872_1920.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="sales_item">
+            <img src="img/sales/black-friday-4655335_1920.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="sales_item">
+            <img src="img/sales/the-sale-2085766_1920.png" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-circle-chevron-right"></i></a>
+    </div>
+
+
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <br>
+    <nav class="nav_primary">
+
+        <ul class="primary_nav_box">
+            <div class="responziv-list">
+                <a href="">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Zobraziť katalog</span>
+                </a>
+            </div>
+            <li>
+                <a onclick="show_news()">novinky</a>
+            </li>
+
+            <li>
+                <a onclick="show_gouch()">gauce <i class="fa-solid fa-chevron-down" ></i></a>
+                <div class="drop_down">
+                    <a href="#">gauce-rozkladacie</a>
+                    <a href="#">gauce-L</a>
+                    <a href="#">gauce-U</a>
+                </div>
+            </li>
+            <li>
+                <a onclick="show_chair()"> stolicky <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="drop_down">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+            <li>
+                <a onclick="show_table()"> stoly <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="drop_down">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+            <li>
+                <a href="#"> kuchina <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="drop_down">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+            <li>
+                <a href="#"> obyvacka <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="drop_down">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div id="producty_container">
+        <h1 id="category_name">novinky</h1>
+        <div id="produkty">
+            <!--<button onclick="pridaj_do_kosiku(json[i].id)"></button>-->
+        </div>
+    </div>
+    <div id="product_detail_container">
+        <div id="product_detail_card">
+            <i class="fa-solid fa-x" onclick="close_product_detail_container()" id="close_product_detail_container"></i>
+        </div>
+    </div>
+    <div class="show-more">
+        <i class="fa-solid fa-circle-chevron-down" onclick="show_more()"></i>
+    </div>
+
+    <div class="revievs-container">
+        <div class="rev-item">
+            <h1>Janko mrvkicka</h1>
+            <cite> Sed eleifend dictum massa, at lobortis libero efficitur imperdiet. Proin bibendum nisi quis congue aliquam. Donec sed condimentum sapien.</cite>
+        </div>
+        <div class="rev-item">
+            <h1>Jožko Hrasko</h1>
+            <cite> Sed eleifend dictum massa, at lobortis libero efficitur imperdiet. Proin bibendum nisi quis congue aliquam. Donec sed condimentum sapien.</cite>
+        </div>
+        <div class="rev-item">
+            <h1>Vldako Putav</h1>
+            <cite> Sed eleifend dictum massa, at lobortis libero efficitur imperdiet. Proin bibendum nisi quis congue aliquam. Donec sed condimentum sapien.</cite>
+        </div>
+        <a class="rev-prev" onclick="plusSlides_rev(-1)"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <a class="rev-next" onclick="plusSlides_rev(1)"><i class="fa-solid fa-circle-chevron-right"></i></a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dote" onclick="currentSlide(1)"></span>
+        <span class="dote" onclick="currentSlide(2)"></span>
+        <span class="dote" onclick="currentSlide(3)"></span>
+    </div>
+    <footer class="footer" id="footer">
+        <span class="fot-contact">
+            <a href="mailto:mato.hurak@gmail.com"> mail: mato.hurak@gmail.com</a>
+            <a href="tel:+4210000000">tel :+421 *** *** </a>
+        </span>
+        <span>Author: Martin Hurák</span>
+        <div class="fot-icons">
+            <a href="#"> <i class="fab fa-facebook"></i></a>
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-github"></i></a>
+        </div>
+
+    </footer>
+
+</body>
+<!--javascript-->
+<script src="./javascript/inedex.js"></script>
+<a href="/shop_card.html"></a>
+
+</html>

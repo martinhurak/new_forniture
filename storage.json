@@ -1,0 +1,114 @@
+[{
+        "nazov_produktu": "gauč trolo",
+        "kategoria": "gauc",
+        "tvar": "L",
+        "id": 0,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/sofa/black_sofa_0.jpg",
+        "cena": 20,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+
+    },
+    {
+        "nazov_produktu": "gauč lolo ",
+        "kategoria": "gauc",
+        "tvar": "L",
+        "id": 1,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/sofa/black_sofa_1.jpg",
+        "cena": 25,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "gauč #",
+        "kategoria": "gauc",
+        "tvar": "L",
+        "id": 2,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/sofa/black_sofa_2.jpg",
+        "cena": 260,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "gauč>",
+        "kategoria": "gauc",
+        "tvar": "L",
+        "id": 3,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/sofa/black_sofa_3.jpg",
+        "cena": 32,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stolicka",
+        "id": 4,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/chairs/chair_0.jpg",
+        "cena": 38,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stolicka",
+        "id": 5,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/chairs/chair_1.jpg",
+        "cena": 345,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stolicka",
+        "id": 6,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/chairs/chair_2.jpg",
+        "cena": 375,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stolicka",
+        "id": 7,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/chairs/chair_3.png",
+        "cena": 395,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stol",
+        "id": 8,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/tables/black_table_0.jpg",
+        "cena": 355,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stol",
+        "id": 9,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/tables/black_table_1.jpg",
+        "cena": 358,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stol",
+        "id": 10,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/tables/black_table_2.jpg",
+        "cena": 785,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+        "nazov_produktu": "tmava stolicka",
+        "kategoria": "stol",
+        "id": 11,
+        "title": "karana stolicka na zahradu",
+        "img_src": "./img/products/tables/black_table_3.jpg",
+        "cena": 345,
+        "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    }
+]
